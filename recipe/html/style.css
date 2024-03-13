@@ -1,0 +1,131 @@
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 50px;
+    font-family: outfit, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:  hsl(30, 10%, 34%);
+}
+
+hr {
+    color:hsl(30, 18%, 87%);
+}
+.container {
+    background-color: #fff;
+    width: 630px;
+    height: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+header > h1 {
+    color : hsl(24, 5%, 18%);
+    font-family: young-serif, Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.container > header > p{
+    padding-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.preparation > h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul {
+    margin: 15px;
+}
+
+.preparation ul li{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+
+.ingredients h1{
+    font-family: young-serif, Times, serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+
+.ingredients ul{
+    margin: 10px 0px 30px 25px;
+}
+
+.ingredients ul li {
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions h1{
+    font-family: young-serif, Times, serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.instructions ul{
+    padding: 5px;
+    margin: 10px 0px 30px 25px;
+}
+
+.instructions ul li{
+    padding: 5px;
+}
+
+.nutrition h1{
+    font-family: young-serif, Times, serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+}
+
+.nutrition p {
+    margin: 25px 0px;
+
+}
+
+th, td {
+    padding: 0px 200px 25px 30px; 
+    text-align: left;
+}
+
+th {
+    font-weight: 500;
+}
+
+td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
