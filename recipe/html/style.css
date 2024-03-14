@@ -12,13 +12,16 @@
     padding: 0px;
 }
 
-html, body {
+
+
+body {
     background-color: hsl(30, 54%, 90%);
-    margin: 50px;
     font-family: outfit, arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     color:  hsl(30, 10%, 34%);
+    display: grid;
+    justify-content: space-around
 }
 
 hr {
@@ -26,12 +29,12 @@ hr {
 }
 .container {
     background-color: #fff;
-    width: 630px;
-    height: 100%;
+    width: 400px;
     padding: 30px;
     border-radius: 15px;
     display: block;
-    margin: auto;
+    margin: 40px 0px;
+    
 }
 
 .img {
@@ -117,7 +120,8 @@ header > h1 {
 }
 
 th, td {
-    padding: 0px 200px 25px 30px; 
+    margin: 400px;
+    padding: 0px 100px 10px 30px; 
     text-align: left;
 }
 
@@ -128,4 +132,62 @@ th {
 td {
     color: hsl(14, 45%, 36%);
     font-weight: 800;
+}
+
+
+
+@media (max-width: 500px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+        margin: 0px !important;
+        font-size: 14px;
+    }
+
+    .container{
+        max-width: 380px;
+        padding: 0px !important;
+        border-radius: 0px !important;
+        margin: 0px !important;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .img {
+        border-radius: 0px;
+        width: 380px;
+        display: block;
+        margin: auto;
+    }
+
+    .container h1{
+        margin: 30px;
+        font-size: 30px;
+    }
+
+    .container p {
+        margin: 30px;
+    }
+
+    .preparation {
+        margin: 40px;
+    }
+
+    .ingredients {
+        margin: 30px;
+    }
+
+    .instructions {
+        margin: 30px;
+    }
+
+    .nutrition {
+        margin: 20px;
+    }
+
+    th, td {
+        width: 100px;
+        padding: 0px 50px 25px 50px; 
+        text-align: left;
+    }
 }
