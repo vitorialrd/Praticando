@@ -44,17 +44,18 @@ hr {
 header > h1 {
     color : hsl(24, 5%, 18%);
     font-family: young-serif, Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     margin: 15px 0px;
 }
 
 .container > header > p{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: hsl(30, 10%, 34%);
 }
 
 .preparation {
+    margin-top: 20px;
     background-color: hsl(330, 100%, 98%);
     padding: 20px;
     border-radius: 15px;
@@ -121,8 +122,9 @@ header > h1 {
 
 th, td {
     margin: 400px;
-    padding: 0px 100px 10px 30px; 
+    padding: 0px 135px 10px 30px; 
     text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 th {
